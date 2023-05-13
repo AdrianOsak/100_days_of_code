@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Survey form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 id="title">Service quality survey</h1>
+      <p id="description">Please fill this survey form and help us to improve</p>
+    </header>
+    <form id="survey-form">
+      <div>
+        <label id="name-label">Name</label>
+        <input id="name" required type="text" placeholder="Please fill in your name">
+      </div>
+      <div>
+        <label id="email-label">E-mail</label>
+        <input id="email" required type="email" placeholder="Please fill in your email">
+      </div>
+      <div>
+        <label id="number-label">Age</label>
+        <input id="number" type="number" min="16" max="99" placeholder="Please fill in your age">
+      </div>
+      <div>
+        <label></label>
+        <select id="dropdown">
+          <option disabled selected>Select one
+          </option>
+          <option>
+          </option>
+          <option>
+          </option>
+          <option>
+          </option>
+        </select>
+      </div>
+      <div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut libero labore cum eos soluta excepturi amet
+          earum quia officia, unde in voluptates distinctio aliquid ipsam repellat ut incidunt animi autem!</p>
+        <label><input type="radio"></label>
+        <label><input type="radio"></label>
+
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
