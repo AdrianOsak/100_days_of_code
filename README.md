@@ -16,3 +16,7 @@ Third day and third task on fCC. This time it was all about making 3 color marke
 ## 4th day 12.05.2023
 
 Another assignment on fCC was to make registration form. Form had to contain couple inputs such as name, e-mail, password (which had some requirements), also radio-inputs, checkbox, select and textarea.
+
+## 5th day 13.05.2023
+
+Next task on fCC was to make survey form, this time it was without guidance. Today I made initial commit of this project with some html coded.
