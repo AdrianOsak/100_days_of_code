@@ -19,37 +19,53 @@
       <p id="description">Please fill this survey form and help us to improve</p>
     </header>
     <form id="survey-form">
-      <div>
+      <div class="form-item">
         <label id="name-label">Name</label>
         <input id="name" required type="text" placeholder="Please fill in your name">
       </div>
-      <div>
+      <div class="form-item">
         <label id="email-label">E-mail</label>
         <input id="email" required type="email" placeholder="Please fill in your email">
       </div>
-      <div>
+      <div class="form-item">
         <label id="number-label">Age</label>
         <input id="number" type="number" min="16" max="99" placeholder="Please fill in your age">
       </div>
-      <div>
-        <label></label>
+      <div class="form-item">
+        <label>Podpis selecta</label>
         <select id="dropdown">
           <option disabled selected>Select one
           </option>
-          <option>
+          <option>Option1
           </option>
-          <option>
+          <option>Option2
           </option>
-          <option>
+          <option>Option3
           </option>
         </select>
       </div>
-      <div>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut libero labore cum eos soluta excepturi amet
-          earum quia officia, unde in voluptates distinctio aliquid ipsam repellat ut incidunt animi autem!</p>
-        <label><input type="radio"></label>
-        <label><input type="radio"></label>
-
+      <div class="form-item">
+        <p>Podpis radio inputów</p>
+        <label><input type="radio" name="radio-input"> nazwa1</label>
+        <label><input type="radio" name="radio-input"> nazwa2</label>
+        <label><input type="radio" name="radio-input"> nazwa3</label>
+      </div>
+      <div class="form-item">
+        <p>Podpis checkboxów</p>
+        <label><input type="checkbox" value=""> nazwa1</label>
+        <label><input type="checkbox" value=""> nazwa2</label>
+        <label><input type="checkbox" value=""> nazwa3</label>
+        <label><input type="checkbox" value=""> nazwa4</label>
+        <label><input type="checkbox" value=""> nazwa5</label>
+      </div>
+      <div class="form-item">
+        <p>
+          If you have any thoughts about our site please share them with us
+        </p>
+        <textarea>Write your suggestions here</textarea>
+      </div>
+      <div class="form-item">
+        <button id="submit" class="submit-button">Submit</button>
       </div>
     </form>
   </div>

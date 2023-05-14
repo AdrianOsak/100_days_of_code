@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(95, 158, 160, 65%);
+}
+
+header {
+  margin-top: 20px;
+  text-align: center;
+}
+
+p, h1 {
+  margin: 0;
+  padding: 10px;
+}
+
+.container {
+  max-width: 768px;
+  margin: auto;
+}
+
+form {
+  background-color: rgb(95, 158, 160, 85%);
+  margin: 10px auto;
+}
