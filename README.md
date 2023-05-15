@@ -21,10 +21,10 @@ Another assignment on fCC was to make registration form. Form had to contain cou
 
 Next task on fCC was to make survey form, this time it was without guidance. Today I made initial commit of this project with some html coded.
 
-##6th day 14.05.2023
+## 6th day 14.05.2023
 
 First approach to style last project from fCC (survey form). Not done, not even halfway done.
 
-##7th day 15.05.2023
+## 7th day 15.05.2023
 
 Further attempts to style survey form from fCC. Still not finished.
