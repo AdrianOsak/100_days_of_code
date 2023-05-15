@@ -20,6 +20,14 @@ p, h1 {
   padding: 10px;
 }
 
+.title_description {
+  font-style: italic;
+}
+
+.description {
+  padding-left: 0;
+}
+
 .container {
   max-width: 768px;
   margin: auto;
@@ -27,5 +35,47 @@ p, h1 {
 
 form {
   background-color: rgb(95, 158, 160, 85%);
-  margin: 10px auto;
+  margin: 10px auto 0;
+  border-radius: 5px;
+}
+
+/*.form-item {
+  padding: 20px 20px 0;
+  display: grid;
+  grid-gap: 10px;
+} */
+
+label {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+}
+
+.fill-in_item {
+  padding: 10px;
+}
+
+select {
+  padding: 10px;
+}
+
+.radio-input, .checkbox {
+  width: 20px;
+  height: 20px;
+  margin-left: 0px;
+}
+
+textarea {
+  min-height: 150px;
+  resize: none;
+}
+
+button {
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+p, input, textarea, select, button {
+  margin-left: 20px;
 }
