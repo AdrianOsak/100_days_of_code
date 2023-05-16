@@ -21,15 +21,15 @@
     <form id="survey-form">
       <div class="form-item">
         <label id="name-label">Name</label>
-        <input class="fill-in_item" id="name" required type="text" placeholder="Please fill in your name">
+        <input id="name" required type="text" placeholder="Please fill in your name">
       </div>
       <div class="form-item">
         <label id="email-label">E-mail</label>
-        <input class="fill-in_item" id="email" required type="email" placeholder="Please fill in your email">
+        <input id="email" required type="email" placeholder="Please fill in your email">
       </div>
       <div class="form-item">
         <label id="number-label">Age</label>
-        <input class="fill-in_item" id="number" type="number" min="16" max="99" placeholder="Please fill in your age">
+        <input id="number" type="number" min="16" max="99" placeholder="Please fill in your age">
       </div>
       <div class="form-item">
         <label>Podpis selecta</label>
@@ -45,24 +45,24 @@
         </select>
       </div>
       <div class="form-item">
-        <p class="description">Podpis radio inputów</p>
-        <label><input class="radio-input" type="radio" name="radio-input">nazwa1</label>
-        <label><input class="radio-input" type="radio" name="radio-input">nazwa2</label>
-        <label><input class="radio-input" type="radio" name="radio-input">nazwa3</label>
+        <p class="description">Radio-input description</p>
+        <label><input class="radio-input" type="radio" name="radio-input" value="Radio-input1">Radio-input1</label>
+        <label><input class="radio-input" type="radio" name="radio-input" value="Radio-input2">Radio-input2</label>
+        <label><input class="radio-input" type="radio" name="radio-input" value="Radio-input3">Radio-input3</label>
       </div>
       <div class="form-item">
-        <p class="description">Podpis checkboxów</p>
-        <label><input class="checkbox" type="checkbox" value="">nazwa1</label>
-        <label><input class="checkbox" type="checkbox" value="">nazwa2</label>
-        <label><input class="checkbox" type="checkbox" value="">nazwa3</label>
-        <label><input class="checkbox" type="checkbox" value="">nazwa4</label>
-        <label><input class="checkbox" type="checkbox" value="">nazwa5</label>
+        <p class="description">Checkbox description</p>
+        <label><input class="checkbox" type="checkbox" value="checkbox1">checkbox1</label>
+        <label><input class="checkbox" type="checkbox" value="checkbox2">checkbox2</label>
+        <label><input class="checkbox" type="checkbox" value="checkbox3">checkbox3</label>
+        <label><input class="checkbox" type="checkbox" value="checkbox4">checkbox4</label>
+        <label><input class="checkbox" type="checkbox" value="checkbox5">checkbox5</label>
       </div>
       <div class="form-item">
         <p class="description">
           If you have any thoughts about our site please share them with us
         </p>
-        <textarea class="fill-in_item" placeholder="Write your suggestions here"></textarea>
+        <textarea placeholder="Write your suggestions here"></textarea>
       </div>
       <div class="form-item">
         <button id="submit" class="submit-button">Submit</button>
