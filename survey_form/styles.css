@@ -12,12 +12,13 @@ body {
 
 header {
   margin-top: 20px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
 p, h1 {
   margin: 0;
-  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .title_description {
@@ -28,8 +29,20 @@ p, h1 {
   padding-left: 0;
 }
 
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
 .container {
-  max-width: 768px;
+  width: 100%;
   margin: auto;
 }
 
@@ -37,27 +50,26 @@ form {
   background-color: rgb(95, 158, 160, 85%);
   margin: 10px auto 0;
   border-radius: 5px;
+  padding: 15px;
+  padding-bottom: 10px;
 }
 
-/*.form-item {
-  padding: 20px 20px 0;
-  display: grid;
-  grid-gap: 10px;
-} */
+@media (min-width: 480px) {
+  form {
+    padding: 40px;
+    padding-bottom: 10px;
+  }
+}
+
+.form-item {
+  margin-bottom: 25px;
+}
 
 label {
   display: flex;
   align-items: center;
-  padding: 20px;
   gap: 10px;
-}
-
-.fill-in_item {
-  padding: 10px;
-}
-
-select {
-  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .radio-input, .checkbox {
@@ -72,10 +84,10 @@ textarea {
 }
 
 button {
-  padding: 10px;
   margin-bottom: 40px;
 }
 
-p, input, textarea, select, button {
-  margin-left: 20px;
+input, textarea, select, button {
+  width: 100%;
+  padding: 10px;
 }
