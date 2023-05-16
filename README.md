@@ -28,3 +28,7 @@ First approach to style last project from fCC (survey form). Not done, not even 
 ## 7th day 15.05.2023
 
 Further attempts to style survey form from fCC. Still not finished.
+
+## 8th day 16.05.2023
+
+Today I finished styling of survey form. It's not about looking extremely good and awesome, it's about being readable and clear, which I think it is.
