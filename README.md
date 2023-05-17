@@ -32,3 +32,7 @@ Further attempts to style survey form from fCC. Still not finished.
 ## 8th day 16.05.2023
 
 Today I finished styling of survey form. It's not about looking extremely good and awesome, it's about being readable and clear, which I think it is.
+
+## 9th day 17.05.2023
+
+Today I made 2 simple tasks from fCC. First one was repetition of CSS box model (rothko_painting) and second was also repetition about CSS flexbox (flexbox_photo_gallery).
