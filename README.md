@@ -36,3 +36,7 @@ Today I finished styling of survey form. It's not about looking extremely good a
 ## 9th day 17.05.2023
 
 Today I made 2 simple tasks from fCC. First one was repetition of CSS box model (rothko_painting) and second was also repetition about CSS flexbox (flexbox_photo_gallery).
+
+## 10th day 18.05.2023
+
+Task for today was to make nutrition label, it was interesting assingment which main focus was on css.
