@@ -40,3 +40,7 @@ Today I made 2 simple tasks from fCC. First one was repetition of CSS box model 
 ## 10th day 18.05.2023
 
 Task for today was to make nutrition label, it was interesting assingment which main focus was on css.
+
+## 11th day 19.05.2023
+
+Today's lesson from fCC was about accessiblity, I started to code some quiz with fCC guide. It's not done yet so I'll finish it next day.
