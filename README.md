@@ -44,3 +44,7 @@ Task for today was to make nutrition label, it was interesting assingment which 
 ## 11th day 19.05.2023
 
 Today's lesson from fCC was about accessiblity, I started to code some quiz with fCC guide. It's not done yet so I'll finish it next day.
+
+## 12th day 20.05.2023
+
+Finishing quiz from previous lesson.
