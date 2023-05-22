@@ -52,3 +52,7 @@ Finishing quiz from previous lesson.
 ## 13th day 21.05.2023
 
 Today I started to code a tribute page for SAF, it's next assignment from fCC.
+
+## 14th day 22.05.2023
+
+Today I finished tribute site. It's simple site with not much content, but still I think that most important thing is to me code something every day to build a habit. Polishing projects will take place in future.
