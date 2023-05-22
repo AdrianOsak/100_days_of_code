@@ -48,3 +48,7 @@ Today's lesson from fCC was about accessiblity, I started to code some quiz with
 ## 12th day 20.05.2023
 
 Finishing quiz from previous lesson.
+
+## 13th day 21.05.2023
+
+Today I started to code a tribute page for SAF, it's next assignment from fCC.
