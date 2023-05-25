@@ -60,3 +60,7 @@ Today I finished tribute site. It's simple site with not much content, but still
 ## 15th day 23.05.2023
 
 Today's lesson was to build a balance sheet. Main focus in that lesson was on css and pseudo-classes.
+
+## 16th day 24.05.2023
+
+Today's goal was to build a Picasso painting in HTML and CSS. main focus was on CSS, positioning elements, give them right size, shape and z-index.
