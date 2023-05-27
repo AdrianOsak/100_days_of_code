@@ -64,3 +64,7 @@ Today's lesson was to build a balance sheet. Main focus in that lesson was on cs
 ## 16th day 24.05.2023
 
 Today's goal was to build a Picasso painting in HTML and CSS. main focus was on CSS, positioning elements, give them right size, shape and z-index.
+
+## 17th day 25.05.2023
+
+Today's lesson was about to build a project with display of piano board. Except that I read article about 5 AI tools to make coding easier, maybe I'll try some of them in the future.
