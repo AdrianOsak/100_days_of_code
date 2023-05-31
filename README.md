@@ -68,3 +68,13 @@ Today's goal was to build a Picasso painting in HTML and CSS. main focus was on 
 ## 17th day 25.05.2023
 
 Today's lesson was about to build a project with display of piano board. Except that I read article about 5 AI tools to make coding easier, maybe I'll try some of them in the future.
+
+## 18th day 27.05.2023
+
+I started to build technical documentation page, it was a task on fCC.
+
+## BREAK - I had a problem with my back and I was unable to work for a couple of days.
+
+## 19th day 31.05.2023
+
+Today was first day after the brake when I made something. I was finishing technical documentation page and almost done it, it only needs media querries.
