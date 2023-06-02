@@ -78,3 +78,7 @@ I started to build technical documentation page, it was a task on fCC.
 ## 19th day 31.05.2023
 
 Today was first day after the brake when I made something. I was finishing technical documentation page and almost done it, it only needs media querries.
+
+## 20th day 01.06.2023
+
+Today I finished technical documentation page, added media querries and fixed some small issues in HTML. Then I went through next lesson on fCC and made city skyline project. It was using variables in CSS to set colors to elements.
