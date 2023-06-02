@@ -85,4 +85,4 @@ Today I finished technical documentation page, added media queries and fixed som
 
 ## 21st day 02.06.2023
 
-This time lesson on fCC was about building something that looked like a magazine page. It was focused on grid, contained some images, articles, etc.
+This time lesson on fCC was about building something that looked like a magazine page. It was focused on grid, contained some images, articles, etc., also tinkered a little bit with my other project - calculator. Now it's almost as I would like it to be.
