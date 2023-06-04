@@ -86,3 +86,12 @@ Today I finished technical documentation page, added media queries and fixed som
 ## 21st day 02.06.2023
 
 This time lesson on fCC was about building something that looked like a magazine page. It was focused on grid, contained some images, articles, etc., also tinkered a little bit with my other project - calculator. Now it's almost as I would like it to be.
+
+
+## 22nd day 03.06.2023
+
+Today I was no coding, I read some articles about AI in coding and about some AI tools for IDE.
+
+## 23rd day 04.06.2023
+
+Today I started to code landing page for fCC. I did some basic code, but I'm not sure if I'll use it. I had a little problem with finding proper video for this project and I'm not satisfied with it. Probably I'll start over tommorow.
