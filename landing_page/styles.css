@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+    background-color: #ecf0f1;
+    line-height: 1.6;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    color: rgb(84, 84, 84)
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 1024px;
+    display: grid;
+    gap: 30px;
+    justify-items: center;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.nav-link {
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    padding: 10px;
+    text-decoration: none;
+}
+
+img {
+    height: 75px;
+}
+
+.video-div {
+    margin: 0 auto;
+}
