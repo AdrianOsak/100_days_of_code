@@ -2,44 +2,96 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Landing page</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://kit.fontawesome.com/6f444270de.js" crossorigin="anonymous"></script>
+  <title>Landing page</title>
 </head>
 
 <body>
+  <div class="page-wrapper">
     <header id="header">
+      <div class="header-title">
         <img src="https://i.postimg.cc/VNkFyhBn/pexels-cottonbro-studio-6674035.jpg" id="header-img"
-            alt="Image of peace sign">
-        <h1>Polandrock festival</h1>
-        <nav id="nav-bar">
-            <a class="nav-link" href="">What is it about</a>
-            <a class="nav-link" href="">How It Works</a>
-            <a class="nav-link" href="">Some section</a>
-        </nav>
+          alt="Image of peace sign">
+        <h1>Pol'and'Rock festival</h1>
+      </div>
+      <nav id="nav-bar">
+        <a class="nav-link" href="#about">What is it about</a>
+        <a class="nav-link" href="#video-div">Watch video</a>
+        <a class="nav-link" href="#more">More about festival</a>
+      </nav>
     </header>
     <main>
-        <form id="form" action="https://www.freecodecamp.com/email-submit" target="_blank">
-            <input type="email" required id="email" placeholder="Please enter your e-mail">
-            <input type="submit" id="submit">
-        </form>
-        <div class="video-div">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/W24nUjM1V1c" title="Polandrock festival"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
+      <h2>The most beautiful festival on Earth</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit" target="_blank">
+        <input name="email" type="email" required id="email" placeholder="Sign up if you don't want to miss any news!">
+        <input type="submit" id="submit" value="Submit">
+      </form>
+      <hr>
+      <div class="about" id="about">
+        <p>
+        <h3>What is it about</h3>
+        Pol'and'Rock Festival, formerly known as Woodstock Festival Poland, (Polish: Przystanek Woodstock;
+        "Woodstock Station"; English-language materials often referred to it simply to the Woodstock Festival
+        Poland) is an annual free rock music festival in Poland, inspired by the Woodstock festival. The
+        festival
+        has been held since 1995. In 2009 Woodstock Festival Poland gathered an audience of over 400,000 people,
+        in
+        2011 the attendance was above 700,000, in 2012 about 550,000 people, in 2013 about 500,000 and in 2014
+        the
+        attendance reached a record high of about 750,000. As of 2019, the aggregate attendance of the festival
+        is
+        750,000 making it one of the biggest music festivals in the world.
+        </p>
+      </div>
+      <hr>
+      <div class="video-div" id="video-div">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/W24nUjM1V1c"
+          title="Polandrock festival"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+      <hr>
+      <h3>Find out more about festival</h3>
+      <div id="more">
+        <div>
+          <p>Read more about background and history of the festival on <a
+              href="https://en.wikipedia.org/wiki/Pol%27and%27Rock_Festival">wikipedia</a></p>
         </div>
-        <div class="options">
-            <p></p>
-            <p></p>
-            <p></p>
+        <div>
+          <p>Check official website of the festival for latest news, band annoucements and more! <a
+              href="https://polandrockfestival.pl/">Official website of Pol'and'Rock</a></p>
         </div>
+        <div>
+          <p>Keep in touch with community of fans on the social platforms
+          <ul class="social_item">
+            <li>
+              <a target="_blank" href="https://twitter.com/PolAndRockFest">
+                <i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.instagram.com/polandrockfestival/"><i
+                  class="fab fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.facebook.com/PolAndRockFestival"><i
+                  class="fab fa-brands fa-facebook"></i></a>
+            </li>
+          </ul>
+          </p>
+        </div>
+      </div>
+      <hr>
     </main>
-    <footer id="footer"></footer>
+  </div>
+  <footer id="footer">This page was created only for practice, it's not an advertisement, I do not own any rights to the
+    video. <a target="_blank" href="https://github.com/AdrianOsak">Adrian Osak</a> 06.2023</footer>
 </body>
 
 </html>

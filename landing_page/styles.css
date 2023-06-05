@@ -1,11 +1,8 @@
 html {
     box-sizing: border-box;
-    background-color: #ecf0f1;
-    line-height: 1.6;
-    max-width: 1000px;
+    max-width: 1138px;
     margin: auto;
-    background-color: rgb(255, 255, 255);
-    color: rgb(84, 84, 84)
+    scroll-behavior: smooth;
 }
 
 *, ::after, ::before {
@@ -13,17 +10,48 @@ html {
 }
 
 body {
-    max-width: 1024px;
+    max-width: 100%;
     display: grid;
     gap: 30px;
     justify-items: center;
+    background-color: #ecf0f1;
+    color: rgb(84, 84, 84);
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.page-wrapper {
+    position: relative;
+    text-align: center;
+}
+
+
+#about {
+    margin: 10px auto;
+    max-width: 80%;
+    text-align: left;
+}
+
+main {
+    position: relative;
+    top: 100px;
 }
 
 header {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
+    z-index: 2;
+    position: fixed;
+    display: flex;
+    max-width: 1138px;
+    width: 80%;
     align-items: center;
+    justify-content: space-between;
+    background-color: #ecf0f1;
+}
+
+@media (max-width: 1024px) {
+    header {
+        width: 100%;
+    }
 }
 
 .nav-link {
@@ -33,10 +61,75 @@ header {
     text-decoration: none;
 }
 
-img {
-    height: 75px;
+.header-title {
+    display: flex;
+    align-items: center;
 }
 
-.video-div {
-    margin: 0 auto;
+img {
+    height: 75px;
+    margin-right: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#email {
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+#submit {
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+    background-color: rgb(255, 192, 203);
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+#submit:hover {
+    background-color: rgb(255, 192, 203, 65%);
+}
+
+#more {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+}
+
+.social_item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social_item li {
+    list-style: none;
+}
+
+.social_item li a {
+    border-radius: 50%;
+    font-size: 35px;
+    color: rgb(37, 50, 148);
+    margin: 0 6px;
+}
+
+footer {
+    margin-top: 70px;
+    font-size: 14px;
+    font-style: italic;
 }
