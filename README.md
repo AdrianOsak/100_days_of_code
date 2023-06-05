@@ -95,3 +95,7 @@ Today I was no coding, I read some articles about AI in coding and about some AI
 ## 23rd day 04.06.2023
 
 Today I started to code landing page for fCC. I did some basic code, but I'm not sure if I'll use it. I had a little problem with finding proper video for this project and I'm not satisfied with it. Probably I'll start over tommorow.
+
+## 24th day 05.06.2023
+
+Today I was making this landing page, basicly from scratch. I used very little from my yesterday, but I finished managed to finish it anyway. I think it's supposed to be quick and easy but it took me almost whole day, but again, the most important thing to me is to practice everyday, so I'm glad I did it.
