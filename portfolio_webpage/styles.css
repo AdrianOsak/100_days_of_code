@@ -1,0 +1,61 @@
+    html {
+      box-sizing: border-box;
+      max-width: 14;
+    }
+
+    *, ::after, ::before {
+      box-sizing: inherit;
+    }
+
+    body {
+      min-height: 100vw;
+    }
+
+    #header {
+      height: 70px;
+      background-color: #AEB324;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 2;
+    }
+
+    nav {
+      font-size: 25px;
+      display: flex;
+      gap: 20px;
+      justify-content: flex-end;
+      padding: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #ecf0f1;
+    }
+
+    
+
+    #welcome-section {
+      height: 100vh;
+      background-color: #053B66;
+      color: #bdc3c7;
+      text-align: center;
+    }
+
+    #welcome-title, #welcome-subtitle {
+      position: relative;
+      top: 40%;
+    }
+
+    #welcome-title {
+      font-size: 50px;
+    }
+
+    #welcome-subtitle {
+      font-size: 30px;
+      
+    }
+
+    #projects {
+      background-color: #053B66;
+    }
