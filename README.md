@@ -99,3 +99,8 @@ Today I started to code landing page for fCC. I did some basic code, but I'm not
 ## 24th day 05.06.2023
 
 Today I was making this landing page, basicly from scratch. I used very little from my yesterday, but I finished managed to finish it anyway. I think it's supposed to be quick and easy but it took me almost whole day, but again, the most important thing to me is to practice everyday, so I'm glad I did it.
+
+
+## 25th day 06.06.2023
+
+Today was pretty effective day. I made 2 projects from fCC, one was about codeing Ferris Wheel, it was mostly about animation in CSS, and second was to code a Penguin, which was focused on CSS. Then I almost finished to build Portfolio. I need to add media queries and some effects to links.
