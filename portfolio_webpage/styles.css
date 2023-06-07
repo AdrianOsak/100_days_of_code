@@ -147,3 +147,11 @@
       text-align: center;
       padding-top: 50px;
     }
+
+    span {
+      color: crimson;
+    }
+
+    .footer-link:hover {
+      text-decoration: underline;
+    }
