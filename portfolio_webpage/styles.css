@@ -67,6 +67,13 @@
       row-gap: 50px;
     }
 
+    @media (max-width: 1260px) {
+      .projects-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+
     h2 {
       text-align: center;
       margin-top: 0;
@@ -92,14 +99,29 @@
       padding: 20px;
     }
 
+
     #contact {
       background-color: #490566;
       height: 60vh;
     }
 
+    @media (max-width: 890px) {
+      #contact {
+        height: 100%;
+      }
+    }
+
     .contact-wrapper {
       display: flex;
       justify-content: space-evenly;
+    }
+
+    @media (max-width: 890px) {
+      .contact-wrapper {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+      }
     }
 
     .contact-item {
