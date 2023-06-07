@@ -99,7 +99,6 @@
       padding: 20px;
     }
 
-
     #contact {
       background-color: #490566;
       height: 60vh;
@@ -126,7 +125,7 @@
 
     .contact-item {
       font-size: 50px;
-      transition: width 2s, height 2s, transform 1s;
+      transition: transform 1s;
     }
 
     .contact-item:hover {
