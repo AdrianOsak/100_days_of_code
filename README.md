@@ -104,3 +104,7 @@ Today I was making this landing page, basicly from scratch. I used very little f
 ## 25th day 06.06.2023
 
 Today was pretty effective day. I made 2 projects from fCC, one was about codeing Ferris Wheel, it was mostly about animation in CSS, and second was to code a Penguin, which was focused on CSS. Then I almost finished to build Portfolio. I need to add media queries and some effects to links.
+
+## 26th day 07.06.2023
+
+Today I added media queries and some effects to links in Portfolio project and I finished it. What gave me Responsive Web Design Certification on freeCodeCamp.org. Then I moved to next section on fCC on to JavaScript Algorithms and Data Structure Certification and started with basic JavaScript.
