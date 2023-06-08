@@ -108,3 +108,7 @@ Today was pretty effective day. I made 2 projects from fCC, one was about codein
 ## 26th day 07.06.2023
 
 Today I added media queries and some effects to links in Portfolio project and I finished it. What gave me Responsive Web Design Certification on freeCodeCamp.org. Then I moved to next section on fCC on to JavaScript Algorithms and Data Structure Certification and started with basic JavaScript.
+
+## 27th day 08.06.2023
+
+Today I had not much time to code so I made only small progress on JS section on fCC.
