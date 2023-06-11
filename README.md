@@ -112,3 +112,7 @@ Today I added media queries and some effects to links in Portfolio project and I
 ## 27th day 08.06.2023
 
 Today I had not much time to code so I made only small progress on JS section on fCC.
+
+## 28th day 11.06.2023
+
+Further work on JS section on fCC.
