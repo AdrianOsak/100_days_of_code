@@ -116,3 +116,7 @@ Today I had not much time to code so I made only small progress on JS section on
 ## 28th day 11.06.2023
 
 Further work on JS section on fCC.
+
+## 29th day 12.06.2023
+
+Further work on JS section on fCC.
