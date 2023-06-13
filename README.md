@@ -120,3 +120,7 @@ Further work on JS section on fCC.
 ## 29th day 12.06.2023
 
 Further work on JS section on fCC.
+
+## 30th day 13.06.2023
+
+Still the same - working on Basic JS section.
