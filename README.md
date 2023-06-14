@@ -124,3 +124,7 @@ Further work on JS section on fCC.
 ## 30th day 13.06.2023
 
 Still the same - working on Basic JS section.
+
+## 31th day 14.06.2023
+
+No coding for today. I looked for courses about TypeScript and Angular, read a bit about them.
