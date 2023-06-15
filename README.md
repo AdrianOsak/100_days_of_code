@@ -15,7 +15,7 @@ Third day and third task on fCC. This time it was all about making 3 color marke
 
 ## 4th day 12.05.2023
 
-Another assignment on fCC was to make registration form. Form had to contain couple inputs such as name, e-mail, password (which had some requirements), also radio-inputs, checkbox, select and textarea.
+Another assignment on fCC was to make registration form. Form had to contain couple inputs such as name, e-mail, password (which had some requirements), also radio-inputs, checkbox, select and textarea.☺
 
 ## 5th day 13.05.2023
 
@@ -125,6 +125,10 @@ Further work on JS section on fCC.
 
 Still the same - working on Basic JS section.
 
-## 31th day 14.06.2023
+## 31st day 14.06.2023
 
 No coding for today. I looked for courses about TypeScript and Angular, read a bit about them.
+
+## 32nd day 15.06.2023
+
+Back to Basic JS section.
