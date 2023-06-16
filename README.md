@@ -132,3 +132,7 @@ No coding for today. I looked for courses about TypeScript and Angular, read a b
 ## 32nd day 15.06.2023
 
 Back to Basic JS section.
+
+## 33rd day 16.06.2023
+
+Today I read about recursion. I was not coding anything.
