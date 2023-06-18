@@ -136,3 +136,8 @@ Back to Basic JS section.
 ## 33rd day 16.06.2023
 
 Today I read about recursion. I was not coding anything.
+
+
+## 34th day 18.06.2023
+
+Today was a soft day, I read a little bit about certification and listend to podcast about it.
