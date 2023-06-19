@@ -141,3 +141,7 @@ Today I read about recursion. I was not coding anything.
 ## 34th day 18.06.2023
 
 Today was a soft day, I read a little bit about certification and listend to podcast about it.
+
+## 35th day 19.06.2023
+
+Today I finished first section of Basic JS on fCC, I read a little bit of react docummentation, listened to TSH.io's podcast and started to make corrections in Landing Page project from fCC.
