@@ -13,30 +13,31 @@
   <title>Landing page</title>
 </head>
 
-<body>
-  <div class="page-wrapper">
-    <header id="header">
-      <div class="header-title">
-        <img src="https://i.postimg.cc/VNkFyhBn/pexels-cottonbro-studio-6674035.jpg" id="header-img"
+<body class="body">
+  <div class="container">
+    <header id="header" class="container__header">
+      <div class="header__block">
+        <img src="https://i.postimg.cc/VNkFyhBn/pexels-cottonbro-studio-6674035.jpg" id="header-img" class="header__img"
           alt="Image of peace sign">
-        <h1>Pol'and'Rock festival</h1>
+        <h1 class="header__title">Pol'and'Rock festival</h1>
       </div>
-      <nav id="nav-bar">
-        <a class="nav-link" href="#about">What is it about</a>
-        <a class="nav-link" href="#video-div">Watch video</a>
-        <a class="nav-link" href="#more">More about festival</a>
+      <nav id="nav-bar" class="header__nav">
+        <a class="header__link link" href="#about">What is it about</a>
+        <a class="header__link link" href="#video-div">Watch video</a>
+        <a class="header__link link" href="#more">More about festival</a>
       </nav>
     </header>
-    <main>
-      <h2>The most beautiful festival on Earth</h2>
-      <form id="form" action="https://www.freecodecamp.com/email-submit" target="_blank">
-        <input name="email" type="email" required id="email" placeholder="Sign up if you don't want to miss any news!">
-        <input type="submit" id="submit" value="Submit">
+    <main class="main">
+      <h2 class="main__header">The most beautiful festival on Earth</h2>
+      <form id="form" class="main__form" action="https://www.freecodecamp.com/email-submit" target="_blank">
+        <input name="email" class="form__email" type="email" required id="email"
+          placeholder="Sign up if you don't want to miss any news!">
+        <input type="submit" class="form__submit" id="submit" value="Submit">
       </form>
       <hr>
       <div class="about" id="about">
-        <p>
-        <h3>What is it about</h3>
+        <p class="about__paragraph">
+        <h3 class="about__header">What is it about</h3>
         Pol'and'Rock Festival, formerly known as Woodstock Festival Poland, (Polish: Przystanek Woodstock;
         "Woodstock Station"; English-language materials often referred to it simply to the Woodstock Festival
         Poland) is an annual free rock music festival in Poland, inspired by the Woodstock festival. The
@@ -52,35 +53,35 @@
       </div>
       <hr>
       <div class="video-div" id="video-div">
-        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/W24nUjM1V1c"
-          title="Polandrock festival"
+        <iframe id="video" class="video-div__video" width="560" height="315"
+          src="https://www.youtube.com/embed/W24nUjM1V1c" title="Polandrock festival"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen></iframe>
       </div>
       <hr>
       <h3>Find out more about festival</h3>
-      <div id="more">
-        <div>
-          <p>Read more about background and history of the festival on <a
+      <div id="more" class="read-more">
+        <div class="festival-wiki">
+          <p>Read more about background and history of the festival on <a class="link"
               href="https://en.wikipedia.org/wiki/Pol%27and%27Rock_Festival">wikipedia</a></p>
         </div>
-        <div>
-          <p>Check official website of the festival for latest news, band annoucements and more! <a
+        <div class="official-page">
+          <p>Check official website of the festival for latest news, band announcements and more! <a class="link"
               href="https://polandrockfestival.pl/">Official website of Pol'and'Rock</a></p>
         </div>
-        <div>
+        <div class="social-media">
           <p>Keep in touch with community of fans on the social platforms
           <ul class="social_item">
             <li>
-              <a target="_blank" href="https://twitter.com/PolAndRockFest">
+              <a class="link" target="_blank" href="https://twitter.com/PolAndRockFest">
                 <i class="fa-brands fa-twitter"></i></a>
             </li>
             <li>
-              <a target="_blank" href="https://www.instagram.com/polandrockfestival/"><i
+              <a class="link" target="_blank" href="https://www.instagram.com/polandrockfestival/"><i
                   class="fab fa-brands fa-instagram"></i></a>
             </li>
             <li>
-              <a target="_blank" href="https://www.facebook.com/PolAndRockFestival"><i
+              <a class="link" target="_blank" href="https://www.facebook.com/PolAndRockFestival"><i
                   class="fab fa-brands fa-facebook"></i></a>
             </li>
           </ul>
@@ -90,8 +91,9 @@
       <hr>
     </main>
   </div>
-  <footer id="footer">This page was created only for practice, it's not an advertisement, I do not own any rights to the
-    video. <a target="_blank" href="https://github.com/AdrianOsak">Adrian Osak</a> 06.2023</footer>
+  <footer id="footer" class="footer">This page was created only for practice, it's not an advertisement, I do not own
+    any rights to the
+    video. <a class="link" target="_blank" href="https://github.com/AdrianOsak">Adrian Osak</a> 06.2023</footer>
 </body>
 
 </html>
