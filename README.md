@@ -15,7 +15,7 @@ Third day and third task on fCC. This time it was all about making 3 color marke
 
 ## 4th day 12.05.2023
 
-Another assignment on fCC was to make registration form. Form had to contain couple inputs such as name, e-mail, password (which had some requirements), also radio-inputs, checkbox, select and textarea.
+Another assignment on fCC was to make registration form. Form had to contain couple inputs such as name, e-mail, password (which had some requirements), also radio-inputs, checkbox, select and textarea.☺
 
 ## 5th day 13.05.2023
 
@@ -104,3 +104,44 @@ Today I was making this landing page, basicly from scratch. I used very little f
 ## 25th day 06.06.2023
 
 Today was pretty effective day. I made 2 projects from fCC, one was about codeing Ferris Wheel, it was mostly about animation in CSS, and second was to code a Penguin, which was focused on CSS. Then I almost finished to build Portfolio. I need to add media queries and some effects to links.
+
+## 26th day 07.06.2023
+
+Today I added media queries and some effects to links in Portfolio project and I finished it. What gave me Responsive Web Design Certification on freeCodeCamp.org. Then I moved to next section on fCC on to JavaScript Algorithms and Data Structure Certification and started with basic JavaScript.
+
+## 27th day 08.06.2023
+
+Today I had not much time to code so I made only small progress on JS section on fCC.
+
+## 28th day 11.06.2023
+
+Further work on JS section on fCC.
+
+## 29th day 12.06.2023
+
+Further work on JS section on fCC.
+
+## 30th day 13.06.2023
+
+Still the same - working on Basic JS section.
+
+## 31st day 14.06.2023
+
+No coding for today. I looked for courses about TypeScript and Angular, read a bit about them.
+
+## 32nd day 15.06.2023
+
+Back to Basic JS section.
+
+## 33rd day 16.06.2023
+
+Today I read about recursion. I was not coding anything.
+
+
+## 34th day 18.06.2023
+
+Today was a soft day, I read a little bit about certification and listend to podcast about it.
+
+## 35th day 19.06.2023
+
+Today I finished first section of Basic JS on fCC, I read a little bit of react docummentation, listened to TSH.io's podcast and started to make corrections in Landing Page project from fCC.
