@@ -1,16 +1,19 @@
 html {
     box-sizing: border-box;
-    max-width: 1138px;
-    margin: auto;
+
     scroll-behavior: smooth;
 }
 
-*, ::after, ::before {
+*,
+::after,
+::before {
     box-sizing: inherit;
 }
 
-body {
+.body {
+    width: 1138px;
     max-width: 100%;
+    margin: auto;
     display: grid;
     gap: 30px;
     justify-items: center;
@@ -20,24 +23,24 @@ body {
     line-height: 1.6;
 }
 
-.page-wrapper {
+.container {
     position: relative;
     text-align: center;
 }
 
 
-#about {
+.about {
     margin: 10px auto;
     max-width: 80%;
     text-align: left;
 }
 
-main {
+.main {
     position: relative;
     top: 100px;
 }
 
-header {
+.container__header {
     z-index: 2;
     position: fixed;
     display: flex;
@@ -49,46 +52,46 @@ header {
 }
 
 @media (max-width: 1024px) {
-    header {
+    .container__header {
         width: 100%;
         flex-direction: column;
         gap: 15px;
     }
 
-    .nav-bar {
+    .header__nav {
         margin-bottom: 10px;
     }
 }
 
-.nav-link {
+.header__link {
     font-size: 15px;
     color: rgb(102, 102, 102);
     padding: 10px;
     text-decoration: none;
 }
 
-.header-title {
+.header__block {
     display: flex;
     align-items: center;
 }
 
-img {
+.header__img {
     height: 75px;
     margin-right: 10px;
 }
 
-h2 {
+.main__header {
     text-align: center;
 }
 
-#email {
+.form__email {
     display: block;
     width: 60%;
     margin: 20px auto;
     padding: 10px;
 }
 
-#submit {
+.form__submit {
     display: block;
     margin: 20px auto;
     width: 100px;
@@ -102,7 +105,7 @@ hr {
     margin: 20px 0;
 }
 
-#submit:hover {
+.form__submit:hover {
     background-color: rgb(255, 192, 203, 65%);
 }
 
@@ -123,7 +126,7 @@ hr {
     }
 }
 
-a {
+.link {
     text-decoration: none;
     color: rgb(102, 102, 102);
 }
@@ -144,7 +147,7 @@ a {
     margin: 0 6px;
 }
 
-footer {
+.footer {
     margin-top: 70px;
     font-size: 14px;
     font-style: italic;
