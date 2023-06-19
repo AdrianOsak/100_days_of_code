@@ -18,7 +18,7 @@ html {
     gap: 30px;
     justify-items: center;
     background-color: #ecf0f1;
-    color: rgb(84, 84, 84);
+    color: #545454;
     font-size: 18px;
     line-height: 1.6;
 }
@@ -65,7 +65,7 @@ html {
 
 .header__link {
     font-size: 15px;
-    color: rgb(102, 102, 102);
+    color: #666666;
     padding: 10px;
     text-decoration: none;
 }
@@ -95,7 +95,7 @@ html {
     display: block;
     margin: 20px auto;
     width: 100px;
-    background-color: rgb(255, 192, 203);
+    background-color: #ffc0cb;
     border: none;
     border-radius: 2px;
     padding: 10px;
@@ -106,10 +106,10 @@ hr {
 }
 
 .form__submit:hover {
-    background-color: rgb(255, 192, 203, 65%);
+    background-color: #ffc0cba6;
 }
 
-.read-more {
+.more {
     display: grid;
     grid-template-rows: 1fr;
     gap: 15px;
@@ -117,7 +117,7 @@ hr {
 }
 
 @media (max-width: 1024px) {
-    .read-more {
+    .more {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
         align-items: center;
@@ -128,22 +128,22 @@ hr {
 
 .link {
     text-decoration: none;
-    color: rgb(102, 102, 102);
+    color: #666666;
 }
 
-.social_item {
+.social-items {
     display: flex;
     justify-content: space-around;
 }
 
-.social_item li {
+.social-items .social-item {
     list-style: none;
 }
 
-.social_item li a {
+.social-items .social-item .link {
     border-radius: 50%;
     font-size: 35px;
-    color: rgb(37, 50, 148);
+    color: #253294;
     margin: 0 6px;
 }
 
