@@ -1,7 +1,16 @@
 html {
     box-sizing: border-box;
-
+    font-family: 'Lato', sans-serif;
     scroll-behavior: smooth;
+}
+
+:root {
+    --body-color: #ecf0f1;
+    --body-text-color: #545454;
+    --link-color: #666666;
+    --submit-button-color: #ffc0cb;
+    --submit-button-hover-color: #ffc0cba6;
+    --social-items-color: #253294;
 }
 
 *,
@@ -17,8 +26,8 @@ html {
     display: grid;
     gap: 30px;
     justify-items: center;
-    background-color: #ecf0f1;
-    color: #545454;
+    background-color: var(--body-color);
+    color: var(--body-text-color);
     font-size: 18px;
     line-height: 1.6;
 }
@@ -28,10 +37,9 @@ html {
     text-align: center;
 }
 
-
 .about {
     margin: 10px auto;
-    max-width: 80%;
+    max-width: 100%;
     text-align: left;
 }
 
@@ -45,10 +53,10 @@ html {
     position: fixed;
     display: flex;
     max-width: 1138px;
-    width: 80%;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
-    background-color: #ecf0f1;
+    background-color: var(--body-color);
 }
 
 @media (max-width: 1024px) {
@@ -65,7 +73,6 @@ html {
 
 .header__link {
     font-size: 15px;
-    color: #666666;
     padding: 10px;
     text-decoration: none;
 }
@@ -95,18 +102,14 @@ html {
     display: block;
     margin: 20px auto;
     width: 100px;
-    background-color: #ffc0cb;
+    background-color: var(--submit-button-color);
     border: none;
     border-radius: 2px;
     padding: 10px;
 }
 
-hr {
-    margin: 20px 0;
-}
-
 .form__submit:hover {
-    background-color: #ffc0cba6;
+    background-color: var(--submit-button-hover-color);
 }
 
 .more {
@@ -126,9 +129,14 @@ hr {
     }
 }
 
+.bottom-bordered {
+    border-style: solid;
+    border-width: 0 0px 2px 0;
+}
+
 .link {
     text-decoration: none;
-    color: #666666;
+    color: var(--link-color);
 }
 
 .social-items {
@@ -143,12 +151,13 @@ hr {
 .social-items .social-item .link {
     border-radius: 50%;
     font-size: 35px;
-    color: #253294;
+    color: var(--social-items-color);
     margin: 0 6px;
 }
 
 .footer {
-    margin-top: 70px;
+    position: relative;
+    bottom: -85px;
     font-size: 14px;
     font-style: italic;
 }
