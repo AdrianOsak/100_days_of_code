@@ -145,3 +145,7 @@ Today was a soft day, I read a little bit about certification and listend to pod
 ## 35th day 19.06.2023
 
 Today I finished first section of Basic JS on fCC, I read a little bit of react docummentation, listened to TSH.io's podcast and started to make corrections in Landing Page project from fCC.
+
+## 36th day 20.06.2023
+
+Today I finished my amends in fCC Landing Page. It was satisfying, I also looked for SASS tutorial on youtube and listened to another TSH.io's podcast about remote work, it's pros and cons.
