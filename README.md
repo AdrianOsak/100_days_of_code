@@ -149,3 +149,12 @@ Today I finished first section of Basic JS on fCC, I read a little bit of react 
 ## 36th day 20.06.2023
 
 Today I finished my amends in fCC Landing Page. It was satisfying, I also looked for SASS tutorial on youtube and listened to another TSH.io's podcast about remote work, it's pros and cons.
+
+
+##37th day 21.06.2023
+
+Today I watched SASS tutorial on YouTube, video was made by Samuraj Programowania.
+
+##38th day 23.06.2023
+
+I was not coding today, I listened to TSH.io's podcast about testing. It was pretty interesting.
