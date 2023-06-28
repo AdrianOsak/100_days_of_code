@@ -158,3 +158,10 @@ Today I watched SASS tutorial on YouTube, video was made by Samuraj Programowani
 ##38th day 23.06.2023
 
 I was not coding today, I listened to TSH.io's podcast about testing. It was pretty interesting.
+
+--BREAK--
+Cople intensive days, I had no time for coding.
+
+## 39th day 28.06.2023
+
+Today I started to make corrections in my previous project, like I did on Landing Page project earlier. Today I started with Registratrion Form.
