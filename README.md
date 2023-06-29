@@ -165,3 +165,7 @@ Cople intensive days, I had no time for coding.
 ## 39th day 28.06.2023
 
 Today I started to make corrections in my previous project, like I did on Landing Page project earlier. Today I started with Registratrion Form.
+
+## 40th day 29.06.23
+
+Further corrections.
