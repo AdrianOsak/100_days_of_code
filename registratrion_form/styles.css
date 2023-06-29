@@ -20,7 +20,7 @@ html {
   box-sizing: inherit;
 }
 
-body {
+.survey {
   width: 100%;
   height: 100vh;
   margin: 0;
@@ -30,12 +30,12 @@ body {
   font-size: 16px;
 }
 
-h1, p {
+.survey__title, .survey__intro {
   margin: 1em auto;
   text-align: center;
 }
 
-form {
+.survey__form {
   width: 60vw;
   max-width: 500px;
   min-width: 300px;
@@ -43,30 +43,31 @@ form {
   padding-bottom: 2em;
 }
 
-fieldset {
+.survey__fieldset {
+  margin-top: 10px;
   border: none;
   padding: 2rem 0;
   border-bottom: 3px solid var(--fieldset-border-color);
 }
 
-fieldset:last-of-type {
+.survey__fieldset:last-of-type {
   border-bottom: none;
 }
 
-label {
+.survey__label {
   display: block;
   margin: 0.5rem 0;
 }
 
-input,
-textarea,
-select {
+.survey__input,
+.survey__textarea,
+.survey__select {
   margin: 10px 0 0 0;
   width: 100%;
   min-height: 2em;
 }
 
-input, textarea {
+.survey__input, .survey__textarea {
   background-color: var(--form-items-color);
   border: 1px solid var(--form-border-color);
   color: var(--form-items-text-color);
@@ -78,7 +79,7 @@ input, textarea {
   vertical-align: middle;
 }
 
-input[type="submit"] {
+.survey__input[type="submit"] {
   display: block;
   width: 60%;
   margin: 1em auto;
@@ -89,10 +90,10 @@ input[type="submit"] {
   min-width: 300px;
 }
 
-input[type="file"] {
+.survey__input[type="file"] {
   padding: 1px 2px;
 }
 
-a {
+.survey__link {
   color: var(--link-color);
 }
