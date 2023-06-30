@@ -5,41 +5,44 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Poppins:wght@200&display=swap"
     rel="stylesheet">
   <script src="https://kit.fontawesome.com/6f444270de.js" crossorigin="anonymous"></script>
   <title>Landing page</title>
 </head>
 
-<body class="body">
+<body>
+
   <div class="container">
     <header class="container__header" id="header">
-      <div class="header__block">
-        <img src="https://i.postimg.cc/VNkFyhBn/pexels-cottonbro-studio-6674035.jpg" class="header__img" id="header-img"
-          alt="Image of peace sign">
-        <h1 class="header__title">Pol'and'Rock festival</h1>
+      <div class="container__headerBlock">
+        <img src="https://i.postimg.cc/VNkFyhBn/pexels-cottonbro-studio-6674035.jpg" class="container__headerImg"
+          id="header-img" alt="Image of peace sign">
+        <h1 class="container__title">Pol'and'Rock festival</h1>
       </div>
-      <nav class="header__nav" id="nav-bar">
-        <a class="header__link link" href="#about">What is it about</a>
-        <a class="header__link link" href="#video-div">Watch video</a>
-        <a class="header__link link" href="#more">More about festival</a>
+      <nav class="container__nav" id="nav-bar">
+        <a class="container__navLink link" href="#about">What is it about</a>
+        <a class="container__navLink link" href="#video-div">Watch video</a>
+        <a class="container__navLink link" href="#more">More about festival</a>
       </nav>
     </header>
-    <main class="main">
-      <h2 class="main__header">The most beautiful festival on Earth</h2>
-      <form class="main__form bottom-bordered" id="form" action="https://github.com/AdrianOsak/100_days_of_code"
+
+    <main class="container__main">
+      <h2 class="container__mainHeader">The most beautiful festival on Earth</h2>
+      <form class="container__form bottom-bordered" id="form" action="https://github.com/AdrianOsak/100_days_of_code"
         target="_blank">
-        <input class="form__email" name="email" type="email" required id="email"
+        <input class="container__formInput email" name="email" type="email" required id="email"
           placeholder="Sign up if you don't want to miss any news!">
-        <input class="form__submit" type="submit" id="submit" value="Submit">
+        <input class="container__formInput submit" type="submit" id="submit" value="Submit">
       </form>
-      <div class="about bottom-bordered" id="about">
-        <p class="about__paragraph">
-        <h3 class="about__header">What is it about</h3>
+
+      <div class="container__about bottom-bordered" id="about">
+        <p class="container__paragraph">
+        <h3 class="container__aboutHeader">What is it about</h3>
         Pol'and'Rock Festival, formerly known as Woodstock Festival Poland, (Polish: Przystanek Woodstock;
         "Woodstock Station"; English-language materials often referred to it simply to the Woodstock Festival
         Poland) is an annual free rock music festival in Poland, inspired by the Woodstock festival. The
@@ -53,46 +56,57 @@
         750,000 making it one of the biggest music festivals in the world.
         </p>
       </div>
-      <div class="video-div bottom-bordered" id="video-div">
-        <iframe class="video-div__video" id="video" width="560" height="315"
+
+      <div class="container__videoDiv bottom-bordered" id="video-div">
+        <iframe class="container__video" id="video" width="560" height="315"
           src="https://www.youtube.com/embed/W24nUjM1V1c" title="Polandrock festival"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen></iframe>
       </div>
-      <h3 class="about__header">Find out more about festival</h3>
-      <section class="more bottom-bordered" id="more">
-        <article class="more__festival-wiki more__article">
-          <p class="article__paragraph">Read more about background and history of the festival on <a class="link"
-              href="https://en.wikipedia.org/wiki/Pol%27and%27Rock_Festival">wikipedia</a></p>
+
+      <h3 class="container__subHeader centered">Find out more about festival</h3>
+      <section class="container__more bottom-bordered" id="more">
+        <article class="container__article festival-wiki">
+          <p class="container__articleParagraph">Read more about background and history of the festival on <a
+              class="link" href="https://en.wikipedia.org/wiki/Pol%27and%27Rock_Festival">wikipedia</a></p>
         </article>
-        <article class="more__official-page more__article">
-          <p class="article__paragraph">Check official website of the festival for latest news, band announcements and
+
+        <article class="container__article official-page">
+          <p class="container__articleParagraph">Check official website of the festival for latest news, band
+            announcements and
             more! <a class="link" href="https://polandrockfestival.pl/">Official website of Pol'and'Rock</a></p>
         </article>
-        <article class="more__social-media more__article">
-          <p class="article__paragraph">Keep in touch with community of fans on the social platforms
-          <ul class="social-items">
-            <li class="social-item">
-              <a class="link" target="_blank" href="https://twitter.com/PolAndRockFest">
+
+        <article class="container__article social-media">
+          <p class="container__socialMedia">Keep in touch with community of fans on the social platforms
+          <ul class="container__socialItems">
+            <li class="container__socialItem">
+              <a class="container__link link" target="_blank" href="https://twitter.com/PolAndRockFest">
                 <i class="fa-brands fa-twitter"></i></a>
             </li>
-            <li class="social-item">
-              <a class="link" target="_blank" href="https://www.instagram.com/polandrockfestival/"><i
+            <li class="container__socialItem">
+              <a class="container__link link" target="_blank" href="https://www.instagram.com/polandrockfestival/"><i
                   class="fab fa-brands fa-instagram"></i></a>
             </li>
-            <li class="social-item">
-              <a class="link" target="_blank" href="https://www.facebook.com/PolAndRockFestival"><i
+            <li class="container__socialItem">
+              <a class="container__link link" target="_blank" href="https://www.facebook.com/PolAndRockFestival"><i
                   class="fab fa-brands fa-facebook"></i></a>
             </li>
           </ul>
           </p>
         </article>
+
       </section>
+
     </main>
+
   </div>
+
   <footer class="footer" id="footer">This page was created only for practice, it's not an advertisement, I do not own
     any rights to the
-    video. <a class="link" target="_blank" href="https://github.com/AdrianOsak">Adrian Osak</a> 06.2023</footer>
+    video. <a class="footer__link link" target="_blank" href="https://github.com/AdrianOsak">Adrian Osak</a> 06.2023
+  </footer>
+
 </body>
 
 </html>
