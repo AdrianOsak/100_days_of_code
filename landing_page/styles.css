@@ -19,7 +19,7 @@ html {
     box-sizing: inherit;
 }
 
-.body {
+body {
     width: 1138px;
     max-width: 100%;
     margin: auto;
@@ -35,17 +35,6 @@ html {
 .container {
     position: relative;
     text-align: center;
-}
-
-.about {
-    margin: 10px auto;
-    max-width: 100%;
-    text-align: left;
-}
-
-.main {
-    position: relative;
-    top: 100px;
 }
 
 .container__header {
@@ -66,39 +55,44 @@ html {
         gap: 15px;
     }
 
-    .header__nav {
+    .container__nav {
         margin-bottom: 10px;
     }
 }
 
-.header__link {
+.container__headerBlock {
+    display: flex;
+    align-items: center;
+}
+
+.container__navLink {
     font-size: 15px;
     padding: 10px;
     text-decoration: none;
 }
 
-.header__block {
-    display: flex;
-    align-items: center;
-}
-
-.header__img {
+.container__headerImg {
     height: 75px;
     margin-right: 10px;
 }
 
-.main__header {
+.container__main {
+    position: relative;
+    top: 100px;
+}
+
+.container__mainHeader {
     text-align: center;
 }
 
-.form__email {
+.email {
     display: block;
     width: 60%;
     margin: 20px auto;
     padding: 10px;
 }
 
-.form__submit {
+.submit {
     display: block;
     margin: 20px auto;
     width: 100px;
@@ -108,11 +102,17 @@ html {
     padding: 10px;
 }
 
-.form__submit:hover {
+.submit:hover {
     background-color: var(--submit-button-hover-color);
 }
 
-.more {
+.container__about {
+    margin: 10px auto;
+    max-width: 100%;
+    text-align: left;
+}
+
+.container__more {
     display: grid;
     grid-template-rows: 1fr;
     gap: 15px;
@@ -120,7 +120,7 @@ html {
 }
 
 @media (max-width: 1024px) {
-    .more {
+    .container__more {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
         align-items: center;
@@ -139,16 +139,16 @@ html {
     color: var(--link-color);
 }
 
-.social-items {
+.container__socialItems {
     display: flex;
     justify-content: space-around;
 }
 
-.social-items .social-item {
+.container__socialItems .container__socialItem {
     list-style: none;
 }
 
-.social-items .social-item .link {
+.container__socialItems .container__socialItem .container__link {
     border-radius: 50%;
     font-size: 35px;
     color: var(--social-items-color);
