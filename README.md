@@ -169,3 +169,7 @@ Today I started to make corrections in my previous project, like I did on Landin
 ## 40th day 29.06.23
 
 Further corrections.
+
+## 41st day 30.06.2023
+
+Again, further corrections in previous projects, renaming classes, selectors in CSS etc.
