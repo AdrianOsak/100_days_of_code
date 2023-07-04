@@ -173,3 +173,7 @@ Further corrections.
 ## 41st day 30.06.2023
 
 Again, further corrections in previous projects, renaming classes, selectors in CSS etc.
+
+## 42nd day 04.07.2023
+
+I made some more corrections in landing page project and went back to video course I started last year.
