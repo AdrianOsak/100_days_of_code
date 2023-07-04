@@ -19,7 +19,7 @@ html {
     box-sizing: inherit;
 }
 
-body {
+.body {
     width: 1138px;
     max-width: 100%;
     margin: auto;
@@ -32,12 +32,12 @@ body {
     line-height: 1.6;
 }
 
-.container {
+.main {
     position: relative;
     text-align: center;
 }
 
-.container__header {
+.header {
     z-index: 2;
     position: fixed;
     display: flex;
@@ -49,39 +49,39 @@ body {
 }
 
 @media (max-width: 1024px) {
-    .container__header {
+    .header {
         width: 100%;
         flex-direction: column;
         gap: 15px;
     }
 
-    .container__nav {
+    .header__nav {
         margin-bottom: 10px;
     }
 }
 
-.container__headerBlock {
+.header__block {
     display: flex;
     align-items: center;
 }
 
-.container__navLink {
+.header__navLink {
     font-size: 15px;
     padding: 10px;
     text-decoration: none;
 }
 
-.container__headerImg {
+.header__img {
     height: 75px;
     margin-right: 10px;
 }
 
-.container__main {
+.main {
     position: relative;
     top: 100px;
 }
 
-.container__mainHeader {
+.main__header {
     text-align: center;
 }
 
@@ -106,13 +106,13 @@ body {
     background-color: var(--submit-button-hover-color);
 }
 
-.container__about {
+.main__about {
     margin: 10px auto;
     max-width: 100%;
     text-align: left;
 }
 
-.container__more {
+.main__more {
     display: grid;
     grid-template-rows: 1fr;
     gap: 15px;
@@ -120,7 +120,7 @@ body {
 }
 
 @media (max-width: 1024px) {
-    .container__more {
+    .main__more {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
         align-items: center;
@@ -139,16 +139,16 @@ body {
     color: var(--link-color);
 }
 
-.container__socialItems {
+.main__socialItems {
     display: flex;
     justify-content: space-around;
 }
 
-.container__socialItems .container__socialItem {
+.main__socialItems .main__socialItem {
     list-style: none;
 }
 
-.container__socialItems .container__socialItem .container__link {
+.main__socialItems .main__socialItem .main__link {
     border-radius: 50%;
     font-size: 35px;
     color: var(--social-items-color);
