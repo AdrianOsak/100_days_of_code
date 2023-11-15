@@ -177,3 +177,8 @@ Again, further corrections in previous projects, renaming classes, selectors in 
 ## 42nd day 04.07.2023
 
 I made some more corrections in landing page project and went back to video course I started last year.
+
+
+# Update & summary 15.11.2023
+
+I didn't make it, I didn't finish this challenge. At somoe point along the way of my practice and learning I've found something that interested me more than coding and changed my priorities. It was cybersecurity subject. My interest came from reading a book (AI 2041 - very interesting one) and I started to dive in this enormous topic. So I ditched this coding challenge and started to read about cybersecurity in whole and to search for something that I would see myself in. Maybe in fututre I'll start to deploy here, on my github account, some projects connected to cybersecurity. I don't know. I do know that for now I won't learn coding for some time, I'm focusing on this new subject and I'm thrilled with it. 
